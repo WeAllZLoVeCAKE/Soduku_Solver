@@ -19,8 +19,17 @@ solution = [[5,3,4,6,7,8,9,1,2],
             [3,4,5,2,8,6,1,7,9]]
 
 def soduku_solver(unfinished_lst):
+    boxed_lst = []
+    for index in range(3):
+        start_copy_index = index*3
+        ending_range = start_copy_index+3
+        for start_copy_index in ending_range:
+          boxed_lst.append(unfinished_lst[])
+              
     for lst in unfinished_lst:
         print(str(lst) + "\n")
 
+def check_box(lst, x, y):
+    pass
 
 soduku_solver(x)
